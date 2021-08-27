@@ -10,7 +10,7 @@ pnpm install
 pnpm run dev
 ```
 
-运行成功后，会自动访问页面，默认情况下，地址为 `http://localhost:3000`
+运行成功后，会自动访问页面，默认情况下，地址为 `http://localhost:9000`
 
 ::: warning 注意
 安装依赖时如果提示 husky 安装失败，请使用 `git init` 对项目进行初始化，然后重新安装依赖即可。
