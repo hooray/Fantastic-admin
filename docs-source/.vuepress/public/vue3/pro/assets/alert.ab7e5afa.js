@@ -1,0 +1,7 @@
+
+/**
+ * name: Fantastic-admin
+ * homepage: https://hooray.gitee.io/fantastic-admin/
+ */
+    
+import{n as e,q as t,r as s,o as a,s as l,i as n,w as o,A as r}from"./vendor.5d2d2ca8.js";const c={};e("data-v-82cee018");const d={class:"alert"},i=r(" 基础组件来自 Element Plus ，更多组件及使用技巧请查看 "),p=r("Element Plus 官网");t(),c.render=function(e,t){const r=s("el-link"),c=s("el-alert");return a(),l("div",d,[n(c,{"show-icon":"",type:"info",closable:!1,"close-text":"前往 Element Plus 官网"},{title:o((()=>[i,n(r,{type:"primary",href:"https://element-plus.org/#/zh-CN",target:"_blank"},{default:o((()=>[p])),_:1})])),_:1})])},c.__scopeId="data-v-82cee018";export{c as default};

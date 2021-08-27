@@ -1,0 +1,7 @@
+
+/**
+ * name: Fantastic-admin
+ * homepage: https://hooray.gitee.io/fantastic-admin/
+ */
+    
+import{i as a}from"./logo.3c3b2e9b.js";import{r as e,o as l,s as t,i as s,w as n,h as o,z as u,A as d}from"./vendor.5d2d2ca8.js";const r={data:()=>({isShow:!0,avatar:a}),methods:{handleClose(){this.isShow=!1}}},i=d(" 基础纸片 "),f=d("Fa"),c=d(" 头像文字 "),p=d(" 头像图标 "),_=d(" 头像图片 "),h=d(" 关闭按钮 "),m=d(" Primary "),y=d(" Success "),g=d(" Info "),v=d(" Waning "),w=d(" Danger ");r.render=function(a,d,r,C,S,b){const j=e("page-header"),k=e("chip",!0),x=e("el-avatar"),z=e("page-main");return l(),t("div",null,[s(j,{title:"纸片",content:"Chip"}),s(z,null,{default:n((()=>[s(k,null,{default:n((()=>[i])),_:1}),s(k,null,{default:n((()=>[s(x,null,{default:n((()=>[f])),_:1}),c])),_:1}),s(k,null,{default:n((()=>[s(x,{icon:"el-icon-user-solid"}),p])),_:1}),s(k,null,{default:n((()=>[s(x,{src:S.avatar},null,8,["src"]),_])),_:1}),S.isShow?(l(),o(k,{key:0,closable:"",onClose:b.handleClose},{default:n((()=>[h])),_:1},8,["onClose"])):u("v-if",!0)])),_:1}),s(z,null,{default:n((()=>[s(k,{type:"primary"},{default:n((()=>[m])),_:1}),s(k,{type:"success"},{default:n((()=>[y])),_:1}),s(k,{type:"info"},{default:n((()=>[g])),_:1}),s(k,{type:"warning"},{default:n((()=>[v])),_:1}),s(k,{type:"danger"},{default:n((()=>[w])),_:1})])),_:1})])};export{r as default};

@@ -1,0 +1,7 @@
+
+/**
+ * name: Fantastic-admin
+ * homepage: https://hooray.gitee.io/fantastic-admin/
+ */
+    
+import{g as a,i as e,r as n,j as t,l as o,w as d,o as l,v as r}from"./vendor.798dafea.js";const s={name:"ComponentExampleEditor",data:()=>({form:{content:"<h1>Fantastic-admin</h1>"}})};a("data-v-236b23ac");const i=["innerHTML"];e(),s.render=function(a,e,s,m,c,u){const f=n("editor",!0),p=n("page-main");return l(),t("div",null,[o(p,{title:"富文本编辑器"},{default:d((()=>[o(f,{modelValue:c.form.content,"onUpdate:modelValue":e[0]||(e[0]=a=>c.form.content=a)},null,8,["modelValue"]),r("div",{class:"preview",innerHTML:c.form.content},null,8,i)])),_:1})])},s.__scopeId="data-v-236b23ac";export{s as default};

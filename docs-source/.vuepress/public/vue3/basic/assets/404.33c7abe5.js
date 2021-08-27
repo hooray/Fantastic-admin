@@ -1,0 +1,7 @@
+
+/**
+ * name: Fantastic-admin
+ * homepage: https://hooray.gitee.io/fantastic-admin/
+ */
+    
+import{g as t,i as a,r as e,j as n,l as s,v as o,w as c,o as r,q as i,t as d}from"./vendor.798dafea.js";const l={beforeRouteLeave(t,a,e){clearInterval(this.inter),e()},data:()=>({inter:null,countdown:5}),mounted(){this.inter=setInterval((()=>{this.countdown--,0==this.countdown&&(clearInterval(this.inter),this.goBack())}),1e3)},methods:{goBack(){this.$router.push("/")}}};t("data-v-0bbc7b0e");const u={class:"notfound"},v={class:"content"},h=o("h1",null,"404",-1),b=o("div",{class:"desc"},"抱歉，你访问的页面不存在",-1);a(),l.render=function(t,a,l,f,m,p){const g=e("svg-icon"),k=e("el-button");return r(),n("div",u,[s(g,{name:"404"}),o("div",v,[h,b,s(k,{type:"primary",onClick:p.goBack},{default:c((()=>[i(d(m.countdown)+"秒后，返回首页",1)])),_:1},8,["onClick"])])])},l.__scopeId="data-v-0bbc7b0e";export{l as default};

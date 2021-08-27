@@ -1,0 +1,7 @@
+
+/**
+ * name: Fantastic-admin
+ * homepage: https://hooray.gitee.io/fantastic-admin/
+ */
+    
+import{r as e,o as t,s as a,i as s,w as n,v as o,x as l,A as d}from"./vendor.5d2d2ca8.js";const i={methods:{change(){this.$store.commit("menuBadge/setText","热门"==this.$store.state.menuBadge.text?"促销":"热门")},clear(){this.$store.commit("menuBadge/setText")}}},r=d("切换"),c=d("清空");i.render=function(d,i,u,m,g,h){const x=e("page-header"),f=e("el-button"),k=e("page-main");return t(),a("div",null,[s(x,{title:"文字标记",content:"搭配 Vuex 可实现动态设置。请控制文字展示长度，避免导航标记覆盖导航标题"}),s(k,null,{default:n((()=>[o("div",null,"当前 badge 值：'"+l(d.$store.state.menuBadge.text)+"'",1),s(f,{onClick:h.change},{default:n((()=>[r])),_:1},8,["onClick"]),s(f,{onClick:h.clear},{default:n((()=>[c])),_:1},8,["onClick"])])),_:1})])};export{i as default};

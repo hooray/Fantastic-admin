@@ -1,0 +1,7 @@
+
+/**
+ * name: Fantastic-admin
+ * homepage: https://hooray.gitee.io/fantastic-admin/
+ */
+    
+import{r as e,j as o,l as t,w as n,o as s,q as i}from"./vendor.798dafea.js";const a={methods:{getPermission(){this.$store.dispatch("user/getPermissions").then((e=>{this.$notify({title:"当前用户权限",dangerouslyUseHTMLString:!0,message:e.map((e=>`<p>${e}</p>`)).join("")})}))},open(e){window.open(e,"top")}}},l=i("Mock.js 官网"),r=i("测试：获取用户权限");a.render=function(i,a,c,d,p,m){const u=e("el-button"),f=e("page-header"),k=e("page-main");return s(),o("div",null,[t(f,{title:"Mock",content:"通过拦截 Ajax 请求，返回模拟的响应数据，可以让前端工程师独立于后端进行开发，本演示站的登录和权限获取就是通过 mock 实现的。更多 Mock 语法规则请查询官方文档"},{default:n((()=>[t(u,{icon:"el-icon-link",onClick:a[0]||(a[0]=e=>m.open("http://mockjs.com/"))},{default:n((()=>[l])),_:1})])),_:1}),t(k,null,{default:n((()=>[t(u,{onClick:m.getPermission},{default:n((()=>[r])),_:1},8,["onClick"])])),_:1})])};export{a as default};

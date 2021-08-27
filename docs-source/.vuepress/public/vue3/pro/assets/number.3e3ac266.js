@@ -1,0 +1,7 @@
+
+/**
+ * name: Fantastic-admin
+ * homepage: https://hooray.gitee.io/fantastic-admin/
+ */
+    
+import{r as e,o as t,s,i as n,w as a,v as u,x as o,A as i}from"./vendor.5d2d2ca8.js";const l={methods:{plus(){this.$store.commit("menuBadge/setNumber",this.$store.state.menuBadge.number+1)},minus(){this.$store.commit("menuBadge/setNumber",this.$store.state.menuBadge.number-1)}}},m=i("1"),r=i("1");l.render=function(i,l,d,c,g,b){const p=e("page-header"),f=e("el-button"),h=e("page-main");return t(),s("div",null,[n(p,{title:"数字标记",content:"搭配 Vuex 可实现动态设置。请控制数字展示长度，避免导航标记覆盖导航标题，为 0 时则隐藏"}),n(h,null,{default:a((()=>[u("div",null,"当前 badge 值："+o(i.$store.state.menuBadge.number),1),n(f,{icon:"el-icon-plus",onClick:b.plus},{default:a((()=>[m])),_:1},8,["onClick"]),n(f,{icon:"el-icon-minus",onClick:b.minus},{default:a((()=>[r])),_:1},8,["onClick"])])),_:1})])};export{l as default};

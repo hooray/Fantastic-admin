@@ -1,0 +1,1 @@
+import{r as a,j as n,l as s,w as e,o as r,q as o}from"./vendor.798dafea.js";const t={},l=o(" 多级导航2-2-1 ");t.render=function(t,o){const d=a("page-main");return r(),n("div",null,[s(d,null,{default:e((()=>[l])),_:1})])};export{t as default};

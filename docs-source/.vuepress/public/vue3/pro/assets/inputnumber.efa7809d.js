@@ -1,0 +1,7 @@
+
+/**
+ * name: Fantastic-admin
+ * homepage: https://hooray.gitee.io/fantastic-admin/
+ */
+    
+import e from"./alert.ab7e5afa.js";import{r as l,o as a,s as m,i as u,w as n}from"./vendor.5d2d2ca8.js";const o={components:{Alert:e},data:()=>({num:1,num2:1,num3:5,num4:1,num5:1})};o.render=function(e,o,t,d,s,i){const r=l("Alert"),p=l("page-header"),V=l("el-input-number"),c=l("page-main");return a(),m("div",null,[u(r),u(p,{title:"计数器"}),u(c,{title:"基础用法",class:"demo"},{default:n((()=>[u(V,{modelValue:s.num,"onUpdate:modelValue":o[0]||(o[0]=e=>s.num=e),min:1,max:10,label:"描述文字"},null,8,["modelValue"])])),_:1}),u(c,{title:"禁用状态",class:"demo"},{default:n((()=>[u(V,{modelValue:s.num2,"onUpdate:modelValue":o[1]||(o[1]=e=>s.num2=e),disabled:!0},null,8,["modelValue"])])),_:1}),u(c,{title:"步数",class:"demo"},{default:n((()=>[u(V,{modelValue:s.num3,"onUpdate:modelValue":o[2]||(o[2]=e=>s.num3=e),step:2},null,8,["modelValue"])])),_:1}),u(c,{title:"精度",class:"demo"},{default:n((()=>[u(V,{modelValue:s.num4,"onUpdate:modelValue":o[3]||(o[3]=e=>s.num4=e),precision:2,step:.1,max:10},null,8,["modelValue","step"])])),_:1}),u(c,{title:"按钮位置",class:"demo"},{default:n((()=>[u(V,{modelValue:s.num5,"onUpdate:modelValue":o[4]||(o[4]=e=>s.num5=e),"controls-position":"right",min:1,max:10},null,8,["modelValue"])])),_:1})])};export{o as default};

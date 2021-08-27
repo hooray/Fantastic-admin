@@ -1,0 +1,7 @@
+
+/**
+ * name: Fantastic-admin
+ * homepage: https://hooray.gitee.io/fantastic-admin/
+ */
+    
+import{r as a,o as l,s as n,i as t,w as e,v as d,x as s,z as o}from"./vendor.5d2d2ca8.js";const p={name:"ComponentExampleAmap",props:{},data:()=>({lnglat:[120.068384,30.290939]}),created(){},mounted(){},methods:{}};p.render=function(p,r,c,m,g,u){const i=a("amap-marker"),f=a("page-main");return l(),n("div",null,[t(f,null,{default:e((()=>[d("div",null,"经纬度："+s(g.lnglat),1),o(" 注意这里替换高德地图的appkey "),t(i,{lnglat:g.lnglat,"onUpdate:lnglat":r[0]||(r[0]=a=>g.lnglat=a),appkey:"8f7844cc502e17bb549c04c9aaadaf94",height:600},null,8,["lnglat"])])),_:1})])},p.__scopeId="data-v-66c7b048";export{p as default};

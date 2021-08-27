@@ -1,0 +1,7 @@
+
+/**
+ * name: Fantastic-admin
+ * homepage: https://hooray.gitee.io/fantastic-admin/
+ */
+    
+import{i as a}from"./logo.3c3b2e9b.js";import{r as e,o as l,s as t,i as n,w as d,A as s,v as i}from"./vendor.5d2d2ca8.js";const r={},u=s(" PageMain 是最常用的页面组件，几乎所有页面都会使用到 "),o=s(" 这里放页面内容 "),f=s(" 还可以结合 ElRow 使用 "),m=s(" 这里放页面内容 "),p=s(" 这里放页面内容 "),g=i("h1",null,"Fantastic-admin",-1),c=i("img",{src:a},null,-1),_=i("p",null,"这是一款开箱即用的中后台框架，同时它也经历过数十个真实项目的技术沉淀，确保框架在开发中可落地、可使用、可维护",-1);r.render=function(a,s){const i=e("page-header"),r=e("page-main"),x=e("el-col"),h=e("el-row");return l(),t("div",null,[n(i,{title:"内容块",content:"PageMain"}),n(r,null,{default:d((()=>[u])),_:1}),n(r,{title:"你可以设置一个自定义的标题"},{default:d((()=>[o])),_:1}),n(h,{gutter:20,style:{margin:"-10px 10px"}},{default:d((()=>[n(x,{md:8},{default:d((()=>[n(r,{style:{margin:"10px 0"}},{default:d((()=>[f])),_:1})])),_:1}),n(x,{md:8},{default:d((()=>[n(r,{style:{margin:"10px 0"}},{default:d((()=>[m])),_:1})])),_:1}),n(x,{md:8},{default:d((()=>[n(r,{style:{margin:"10px 0"}},{default:d((()=>[p])),_:1})])),_:1})])),_:1}),n(r,{title:"带展开功能",collaspe:"",height:"200px"},{default:d((()=>[g,c,_])),_:1})])};export{r as default};

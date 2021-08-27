@@ -1,0 +1,7 @@
+
+/**
+ * name: Fantastic-admin
+ * homepage: https://hooray.gitee.io/fantastic-admin/
+ */
+    
+import e from"./index.206854ec.js";import{n as t,q as a,r as o,o as n,s as r,i,w as l,A as d}from"./vendor.5d2d2ca8.js";const s={name:"PagesExampleDepartmentJobDetail",components:{DetailForm:e},data:()=>({}),mounted(){},methods:{onSubmit(){this.$refs.form.submit((()=>{this.$eventBus.emit("get-data-list"),this.$router.back()}))},onCancel(){this.$router.back()}}};t("data-v-7de95b3f");const u=d("返 回"),m=d("提 交"),c=d("取 消");a(),s.render=function(e,t,a,d,s,f){const p=o("el-button"),_=o("page-header"),b=o("DetailForm"),$=o("el-col"),k=o("el-row"),C=o("page-main"),g=o("fixed-action-bar");return n(),r("div",null,[i(_,{title:"routerName"==e.$route.name?"新增职位":"编辑职位"},{default:l((()=>[i(p,{icon:"el-icon-arrow-left",size:"mini",round:"",onClick:t[0]||(t[0]=t=>e.$router.go(-1))},{default:l((()=>[u])),_:1})])),_:1},8,["title"]),i(C,null,{default:l((()=>[i(k,null,{default:l((()=>[i($,{md:24,lg:16},{default:l((()=>[i(b,{id:e.$route.params.id,ref:"form","department-id":e.$route.params.department_id},null,8,["id","department-id"])])),_:1})])),_:1})])),_:1}),i(g,null,{default:l((()=>[i(p,{type:"primary",onClick:f.onSubmit},{default:l((()=>[m])),_:1},8,["onClick"]),i(p,{onClick:f.onCancel},{default:l((()=>[c])),_:1},8,["onClick"])])),_:1})])},s.__scopeId="data-v-7de95b3f";export{s as default};

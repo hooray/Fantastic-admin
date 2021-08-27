@@ -1,0 +1,7 @@
+
+/**
+ * name: Fantastic-admin
+ * homepage: https://hooray.gitee.io/fantastic-admin/
+ */
+    
+import{n as a,q as n,r as e,o,s as d,i,w as l,A as s}from"./vendor.5d2d2ca8.js";const t={methods:{open(a){window.open(a,"top")}}};a("data-v-19eb85d2");const r=s("SVG-Loaders 官网");n(),t.render=function(a,n,s,t,g,c){const m=e("el-button"),p=e("page-header"),u=e("svg-icon"),v=e("page-main");return o(),d("div",null,[i(p,{title:"SVG 动画",content:"svg 文件从 SVG-Loaders 中提取，需要注意，svg 均为白色，需要增加底色才能看到效果。如需封装成加载组件，可参考 SpinkitLoading 组件"},{default:l((()=>[i(m,{icon:"el-icon-link",onClick:n[0]||(n[0]=a=>c.open("http://samherbert.net/svg-loaders/"))},{default:l((()=>[r])),_:1})])),_:1}),i(v,{style:{"background-color":"#34495e"}},{default:l((()=>[i(u,{name:"loading-audio"}),i(u,{name:"loading-ball-triangle"}),i(u,{name:"loading-bars"}),i(u,{name:"loading-circles"}),i(u,{name:"loading-grid"}),i(u,{name:"loading-hearts"}),i(u,{name:"loading-oval"}),i(u,{name:"loading-puff"}),i(u,{name:"loading-rings"}),i(u,{name:"loading-spinning-circles"}),i(u,{name:"loading-tail-spin"}),i(u,{name:"loading-three-dots"})])),_:1})])},t.__scopeId="data-v-19eb85d2";export{t as default};

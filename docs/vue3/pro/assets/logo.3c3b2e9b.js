@@ -1,0 +1,1 @@
+var s="./assets/logo.eb12b828.png";export{s as i};

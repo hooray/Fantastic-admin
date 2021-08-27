@@ -1,0 +1,7 @@
+
+/**
+ * name: Fantastic-admin
+ * homepage: https://hooray.gitee.io/fantastic-admin/
+ */
+    
+import{r as e,o as a,s,i as n,w as l,h as t,a2 as d,a3 as o,v as r}from"./vendor.5d2d2ca8.js";const u={name:"TabExampleNested1"},i=r("div",null,"层级：1",-1);u.render=function(r,u,c,m,p,v){const f=e("router-view"),w=e("page-main");return a(),s("div",null,[n(w,null,{default:l((()=>[i,n(f,null,{default:l((({Component:e})=>[(a(),t(o,{include:r.$store.state.keepAlive.list},[(a(),t(d(e)))],1032,["include"]))])),_:1})])),_:1})])};export{u as default};

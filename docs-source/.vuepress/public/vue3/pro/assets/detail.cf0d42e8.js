@@ -1,0 +1,7 @@
+
+/**
+ * name: Fantastic-admin
+ * homepage: https://hooray.gitee.io/fantastic-admin/
+ */
+    
+import e from"./index.29b1e579.js";import{n as t,q as a,r as o,o as l,s as n,i,w as r,A as d}from"./vendor.5d2d2ca8.js";const s={name:"PagesExampleDepartmentDetail",components:{DetailForm:e},data:()=>({}),mounted(){},methods:{onSubmit(){this.$refs.form.submit((()=>{this.$eventBus.emit("get-data-list"),this.$router.back()}))},onCancel(){this.$router.back()}}};t("data-v-6cb7d920");const u=d("返 回"),m=d("提 交"),c=d("取 消");a(),s.render=function(e,t,a,d,s,f){const p=o("el-button"),b=o("page-header"),_=o("DetailForm"),k=o("el-col"),C=o("el-row"),$=o("page-main"),g=o("fixed-action-bar");return l(),n("div",null,[i(b,{title:"routerName"==e.$route.name?"新增部门":"编辑部门"},{default:r((()=>[i(p,{icon:"el-icon-arrow-left",size:"mini",round:"",onClick:t[0]||(t[0]=t=>e.$router.go(-1))},{default:r((()=>[u])),_:1})])),_:1},8,["title"]),i($,null,{default:r((()=>[i(C,null,{default:r((()=>[i(k,{md:24,lg:16},{default:r((()=>[i(_,{id:e.$route.params.id,ref:"form"},null,8,["id"])])),_:1})])),_:1})])),_:1}),i(g,null,{default:r((()=>[i(p,{type:"primary",onClick:f.onSubmit},{default:r((()=>[m])),_:1},8,["onClick"]),i(p,{onClick:f.onCancel},{default:r((()=>[c])),_:1},8,["onClick"])])),_:1})])},s.__scopeId="data-v-6cb7d920";export{s as default};

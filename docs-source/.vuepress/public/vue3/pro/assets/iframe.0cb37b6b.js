@@ -1,0 +1,7 @@
+
+/**
+ * name: Fantastic-admin
+ * homepage: https://hooray.gitee.io/fantastic-admin/
+ */
+    
+import{n as a,q as e,o as r,s as t}from"./vendor.5d2d2ca8.js";const d={name:"IframeLayout",props:{},data:()=>({}),created(){},mounted(){},methods:{}};a("data-v-4b5dcf57");const o=["src"];e(),d.render=function(a,e,d,s,n,c){return r(),t("iframe",{src:a.$route.meta.link,frameborder:"0"},null,8,o)},d.__scopeId="data-v-4b5dcf57";export{d as default};

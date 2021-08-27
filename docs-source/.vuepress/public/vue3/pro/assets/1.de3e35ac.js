@@ -1,0 +1,7 @@
+
+/**
+ * name: Fantastic-admin
+ * homepage: https://hooray.gitee.io/fantastic-admin/
+ */
+    
+import{n as a,q as e,r as l,o as r,h as s,w as d,i as o,v as n}from"./vendor.5d2d2ca8.js";const i={};a("data-v-77f73a9d");const t=n("iframe",{src:"//player.bilibili.com/player.html?aid=500052419&bvid=BV1mK411A7Uv&cid=249428802&page=1",scrolling:"no",border:"0",frameborder:"no",framespacing:"0",allowfullscreen:"true"},null,-1);e(),i.render=function(a,e){const n=l("page-main"),i=l("el-col"),c=l("el-row");return r(),s(c,null,{default:d((()=>[o(i,{md:18},{default:d((()=>[o(n,{class:"main"},{default:d((()=>[t])),_:1})])),_:1})])),_:1})},i.__scopeId="data-v-77f73a9d";export{i as default};

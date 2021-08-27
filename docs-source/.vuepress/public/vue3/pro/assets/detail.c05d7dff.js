@@ -1,0 +1,7 @@
+
+/**
+ * name: Fantastic-admin
+ * homepage: https://hooray.gitee.io/fantastic-admin/
+ */
+    
+import e from"./index.2927d282.js";import{n as a,q as t,r as n,o,s as l,i as s,w as i,A as r}from"./vendor.5d2d2ca8.js";const d={name:"PagesExampleManagerDetail",components:{DetailForm:e},data:()=>({}),mounted(){},methods:{onSubmit(){this.$refs.form.submit((()=>{this.$eventBus.emit("get-data-list"),this.goBack()}))},onCancel(){this.goBack()},goBack(){this.$store.state.settings.enableTabbar&&!this.$store.state.settings.enableTabbarMergeTabs?this.$tabbar.close({name:"pagesExampleGeneralManagerList"}):this.$router.push({name:"pagesExampleGeneralManagerList"})}}};a("data-v-36fef178");const m=r("返 回"),u=r("提 交"),c=r("取 消");t(),d.render=function(e,a,t,r,d,f){const g=n("el-button"),p=n("page-header"),b=n("DetailForm"),h=n("el-col"),k=n("el-row"),_=n("page-main"),C=n("fixed-action-bar");return o(),l("div",null,[s(p,{title:"routerName"==e.$route.name?"新增管理员":"编辑管理员"},{default:i((()=>[s(g,{icon:"el-icon-arrow-left",size:"mini",round:"",onClick:f.goBack},{default:i((()=>[m])),_:1},8,["onClick"])])),_:1},8,["title"]),s(_,null,{default:i((()=>[s(k,null,{default:i((()=>[s(h,{md:24,lg:16},{default:i((()=>[s(b,{id:e.$route.params.id,ref:"form"},null,8,["id"])])),_:1})])),_:1})])),_:1}),s(C,null,{default:i((()=>[s(g,{type:"primary",onClick:f.onSubmit},{default:i((()=>[u])),_:1},8,["onClick"]),s(g,{onClick:f.onCancel},{default:i((()=>[c])),_:1},8,["onClick"])])),_:1})])},d.__scopeId="data-v-36fef178";export{d as default};
