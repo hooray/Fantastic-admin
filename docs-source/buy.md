@@ -1,7 +1,9 @@
 # 购买专业版
 
 :::warning 限时活动
-购买 Vue3 专业版返现 100 元，截止至 2021年10月17日，购买后联系作者进行返现。
+活动①：购买 Vue2 专业版，免费升级至 Vue3 专业版，截止至2021年9月17日。
+
+活动②：购买 Vue3 专业版返现 100 元，并赠送 Vue2 专业版，截止至2021年10月17日，购买后联系作者进行返现。
 :::
 
 ## 购买说明
@@ -43,7 +45,7 @@
 	</tr>
 	<tr>
 		<td colspan="2" align="center">不支持补差价升级</td>
-		<td colspan="2" align="center"><div style="font-weight: bold; color: #e7c000;">限时活动：购买 Vue3 专业版返现 100 元，截止至 2021年10月17日</div></td>
+		<td colspan="2" align="center">/</td>
 	</tr>
 </table>
 
