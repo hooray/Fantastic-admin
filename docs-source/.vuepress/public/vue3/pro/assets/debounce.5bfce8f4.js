@@ -1,7 +1,0 @@
-
-/**
- * name: Fantastic-admin
- * homepage: https://hooray.gitee.io/fantastic-admin/
- */
-    
-import{a as e,t}from"./index.f2a6faa0.js";import{r as s,o as n,s as a,i as o,w as l,v as i,A as u}from"./vendor.5d2d2ca8.js";const c={methods:{debounce:e((function(){this.message()}),1e3),debounce2:e((function(){this.message()}),1e3,!1),throttle:t((function(){this.message()}),1e3),message(){this.$message.success({message:"恭喜你，这是一条成功消息"})}}},d=i("p",null,"所谓防抖，就是指触发事件后在 n 秒内函数只能执行一次，如果在 n 秒内又触发了事件，则会重新计算函数执行时间。",-1),r=u("连续点击我，只会执行最后一次点击事件，立即执行"),f=u("连续点击我，只会执行最后一次点击事件，延后执行"),m=i("p",null,"所谓节流，就是指连续触发事件但是在 n 秒中只执行一次函数。节流会稀释函数的执行频率。",-1),h=u("连续点击我，每一秒只会执行一次点击事件");c.render=function(e,t,i,u,c,g){const p=s("page-header"),b=s("el-button"),k=s("page-main");return n(),a("div",null,[o(p,{title:"防抖节流"}),o(k,{title:"防抖：debounce"},{default:l((()=>[d,o(b,{onClick:g.debounce},{default:l((()=>[r])),_:1},8,["onClick"]),o(b,{onClick:g.debounce2},{default:l((()=>[f])),_:1},8,["onClick"])])),_:1}),o(k,{title:"节流：throttle"},{default:l((()=>[m,o(b,{onClick:g.throttle},{default:l((()=>[h])),_:1},8,["onClick"])])),_:1})])};export{c as default};
