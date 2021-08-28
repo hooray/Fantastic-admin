@@ -159,6 +159,7 @@ module.exports = {
 				{
 					text: '其它',
 					children: [
+						'upgrade.md',
 						'vue2-to-vue3.md',
 						'vea-to-fa.md'
 					]
