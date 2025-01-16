@@ -73,9 +73,9 @@ const formType = ref<'login' | 'register' | 'resetPassword'>('login')
   background:
     radial-gradient(closest-side, hsl(var(--border) / 10%) 30%, hsl(var(--primary) / 20%) 30%, hsl(var(--border) / 30%) 50%) no-repeat,
     radial-gradient(closest-side, hsl(var(--border) / 10%) 30%, hsl(var(--primary) / 20%) 30%, hsl(var(--border) / 30%) 50%) no-repeat;
-  filter: blur(100px);
   background-position: 100% 100%, 0% 0%;
   background-size: 200vw 200vh;
+  filter: blur(100px);
 }
 
 [data-mode="mobile"] {
@@ -140,9 +140,9 @@ const formType = ref<'login' | 'register' | 'resetPassword'>('login')
       background:
         radial-gradient(closest-side, hsl(var(--border) / 10%) 30%, hsl(var(--primary) / 20%) 30%, hsl(var(--border) / 30%) 50%) no-repeat,
         radial-gradient(closest-side, hsl(var(--border) / 10%) 30%, hsl(var(--primary) / 20%) 30%, hsl(var(--border) / 30%) 50%) no-repeat;
-      filter: blur(100px);
       background-position: 100% 100%, 0% 0%;
       background-size: 200vw 200vh;
+      filter: blur(100px);
     }
 
     .banner {

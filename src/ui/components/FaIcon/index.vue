@@ -60,18 +60,18 @@ const style = computed(() => {
 </script>
 
 <template>
-  <i class="relative h-[1em] w-[1em] flex-inline items-center justify-center fill-current leading-[1em]" :style="style">
-    <i v-if="outputType === 'unocss'" class="h-[1em] w-[1em] shrink-0" :class="name" />
+  <i class="relative size-[1em] flex-inline items-center justify-center fill-current leading-[1em]" :style="style">
+    <i v-if="outputType === 'unocss'" class="size-inherit shrink-0" :class="name" />
     <Icon v-else-if="outputType === 'iconify'" :icon="name" />
-    <svg v-else-if="outputType === 'svg'" class="h-[1em] w-[1em] shrink-0" aria-hidden="true">
+    <svg v-else-if="outputType === 'svg'" class="size-inherit shrink-0" aria-hidden="true">
       <use :xlink:href="`#icon-${name}`" />
     </svg>
-    <UseImage v-else-if="outputType === 'img'" :src="name" class="h-[1em] w-[1em] shrink-0">
+    <UseImage v-else-if="outputType === 'img'" :src="name" class="size-inherit shrink-0">
       <template #loading>
-        <i class="i-line-md:loading-loop h-[1em] w-[1em]" />
+        <i class="i-line-md:loading-loop size-inherit" />
       </template>
       <template #error>
-        <i class="i-tdesign:image-error h-[1em] w-[1em]" />
+        <i class="i-tdesign:image-error size-inherit" />
       </template>
     </UseImage>
   </i>
